@@ -6,7 +6,7 @@ USER root
 RUN conda install -c r r
 
 # Install R package Maftools 
-RUN conda install bioconductor-maftools
+RUN conda install -c bioconda bioconductor-maftools
 
 # Install Python package Selenium
 RUN pip install selenium
