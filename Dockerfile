@@ -7,7 +7,7 @@ RUN conda update conda
 
 # Install R
 RUN conda install -c r r
-RUN conda install -c conda-forge r-r.utils
+RUN conda install -c bioconda r-r.utils
 
 # Install R package Maftools 
 RUN conda install -c bioconda bioconductor-maftools
